@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dwivedi;Anuj;;;
+FN:Anuj Dwivedi
+ORG:Archzos Technologies Private Limited
+TITLE:Managing Director
+TEL;TYPE=CELL,VOICE:+919019458974
+EMAIL;TYPE=WORK,INTERNET:office@anujdwivedi.com
+URL:https://anujdwivedi.com
+ADR;TYPE=WORK:;;TCP Layout;Bengaluru;Karnataka;560081;India
+END:VCARD
