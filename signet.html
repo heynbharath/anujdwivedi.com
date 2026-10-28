@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Anuj Dwivedi Signet</title>
+<meta name="description" content="Membership by invitation only.">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://anujdwivedi.com/signet">
+<link rel="icon" href="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Office of Anuj Dwivedi">
+<meta property="og:title" content="The Anuj Dwivedi Signet">
+<meta property="og:description" content="Membership by invitation only.">
+<meta property="og:url" content="https://anujdwivedi.com/signet">
+<meta property="og:image" content="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/fonts/cg-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://eteknisubztpqzzssexh.supabase.co/storage/v1/object/public/site/v1/fonts/eb-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css?v=2">
+</head>
+<body>
+<header class="wrap top"><a class="mark" href="/" aria-label="The Office of Anuj Dwivedi, home"><img src="/assets/seal.svg" alt="" width="32" height="32"><span class="wm">THE OFFICE OF<br>ANUJ DWIVEDI</span></a><nav class="nav" aria-label="Main"><a href="/signet" aria-current="page">The Signet</a><a href="/request">Engagements</a><a href="/dossier" class="hide-s">Dossier</a></nav></header>
+<main class="wrap">
+  <section class="head">
+    <h1>The Signet is by invitation.</h1>
+    <p class="lede">Three tiers. Every member is met in person and chosen for what they are building.</p>
+  </section>
+  <div style="margin-top:36px" class="row"><span class="muted small">Show prices</span>
+    <div class="seg" id="period" role="group" aria-label="Billing period"><button type="button" data-p="month" aria-pressed="false">Monthly</button><button type="button" data-p="quarter" aria-pressed="false">Quarterly</button><button type="button" data-p="year" aria-pressed="true">Yearly</button></div>
+  </div>
+  <div class="tiers" id="tiers"></div>
+  <p class="taxnote">Gold is billed in rupees, plus 18% GST. Black is billed in US dollars. Payment is by a link sent from the Office.</p>
+  <section class="invite" id="invite">
+    <div class="side"><h2>Enter your invitation.</h2>
+      <p style="margin-top:14px">Your code came with your card, from Anuj or the Office. It works once, and it admits you at once.</p>
+      <p>Lost your code, or need a new member link? Write to <a class="link" href="mailto:office@anujdwivedi.com">office@anujdwivedi.com</a>.</p></div>
+    <form id="code-form" class="form" novalidate>
+      <div><label for="code">Invitation code <span class="req">*</span></label><input id="code" name="code" class="codein" required maxlength="20" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="SIG-XXXX-XXXX"></div>
+      <div class="grid2">
+        <div><label for="full_name">Full name <span class="req">*</span></label><input id="full_name" name="full_name" required maxlength="120" autocomplete="name"></div>
+        <div><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" required maxlength="200" autocomplete="email"></div>
+        <div><label for="phone">Phone or WhatsApp</label><input id="phone" name="phone" type="tel" maxlength="40" autocomplete="tel"></div>
+        <div><label for="member_type">You are</label><select id="member_type" name="member_type"><option value="">Choose one</option><option value="student">A student</option><option value="founder">A founder</option><option value="professional">A working professional</option><option value="institution">From an institution</option><option value="other">Other</option></select></div>
+        <div><label for="organisation">College or organisation</label><input id="organisation" name="organisation" maxlength="200" autocomplete="organization"></div>
+        <div><label for="city">City</label><input id="city" name="city" maxlength="80" autocomplete="address-level2"></div>
+        <div class="full"><label for="building">What are you building, or hoping to?</label><textarea id="building" name="building" maxlength="2000"></textarea></div>
+      </div>
+      <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <div><button class="btn" type="submit">Enter the Signet</button></div>
+      <p class="hint">The Office uses these details only to manage your membership. See <a class="link" href="/privacy">Privacy</a>.</p>
+      <div class="status" role="alert" aria-live="polite"></div>
+    </form>
+  </section>
+</main>
+<script type="application/json" id="tiers-data">[{"key": "silver", "name": "Silver", "rank": 1, "currency": "INR", "price_month": null, "price_quarter": null, "price_year": null, "access": "By invitation. No fee.", "blurb": "The circle.", "benefits": ["The Dispatch: private notes, twice a month", "Opportunities: hackathons, internships and openings shared with members", "The Vault: guides, templates and session notes", "First word on events and open sessions"]}, {"key": "gold", "name": "Gold", "rank": 2, "currency": "INR", "price_month": 1499, "price_quarter": 3999, "price_year": 13999, "access": "By invitation, or upgrade from Silver.", "blurb": "The room.", "benefits": ["Everything in Silver", "A live session every month, members only", "Recordings of every session", "A priority seat at events and workshops", "Fast-track review for Archzos internships"]}, {"key": "black", "name": "Black", "rank": 3, "currency": "USD", "price_month": 199, "price_quarter": 549, "price_year": 1999, "access": "Offered, never applied for.", "blurb": "The inner seat.", "benefits": ["Everything in Gold", "Four one-to-one sessions a year, 45 minutes each", "A direct line to the Office", "A seat at private roundtables", "A review of your startup, with introductions where right"]}]</script>
+<footer class="foot"><div class="wrap"><span>The Office of Anuj Dwivedi, Bengaluru, India</span>
+<span><a href="mailto:office@anujdwivedi.com">office@anujdwivedi.com</a> &nbsp; <a href="/privacy">Privacy</a></span></div></footer>
+<script src="/assets/app.js?v=2" defer></script><script src="/assets/signet.js?v=2" defer></script>
+</body>
+</html>

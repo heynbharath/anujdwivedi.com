@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /signet
+Disallow: /members
+Disallow: /office
+Sitemap: https://anujdwivedi.com/sitemap.xml
